@@ -20,3 +20,10 @@ function isAdult(numero) {
 }
 
 isAdult(20)
+
+/*
+A função pode ser chamada antes ou depois de sua declaração.
+De ambas as formas irá funcionar (desde que o cóidgo esteja correto).
+O JS sobe todo código antes da execução, dessa forma ao executar a função
+já terá sido declarada e reconhecida idependente de quando será chamada.
+*/
